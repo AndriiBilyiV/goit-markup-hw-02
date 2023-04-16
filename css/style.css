@@ -7,13 +7,12 @@
   --logo-studio-light-color: #f4f4fd;
   --nav-item-color: #2e2f42;
   --address-color: #434455;
-  --nav-hover-color: #404bbf;
   --hero-bg-color: #2e2f42;
   --light-bg-color: #f4f4fd;
   --dark-bg-color: #2e2f42;
   --hero-title-color: #fff;
-  --order-btn-color: #4d5ae5;
-  --order-btn-hover-color: #404bbf;
+  --btn-color: #4d5ae5;
+  --hover-color: #404bbf;
   --main-text-light-color: #f4f4fd;
   --title-dark-color: #2e2f42;
   --main-text-dark-color: #434455;
@@ -33,6 +32,9 @@ body {
   font-weight: 700;
   text-transform: capitalize;
 }
+.btn {
+  cursor: pointer;
+}
 /* Header */
 
 .logo {
@@ -44,6 +46,7 @@ body {
   color: var(--logo-studio-dark-color);
   text-decoration: none;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 1.17;
 }
 .logo-web {
   color: var(--logo-web-color);
@@ -53,7 +56,7 @@ body {
   text-decoration: none;
 }
 .nav-item:hover {
-  color: var(--nav-hover-color);
+  color: var(--hover-color);
 }
 .address-item {
   font-style: normal;
@@ -62,11 +65,13 @@ body {
   color: var(--address-color);
 }
 .address-item:hover {
-  color: var(--nav-hover-color);
+  color: var(--hover-color);
 }
-/* Our advantages */
+/* Hero */
 .hero-section {
   background-color: var(--hero-bg-color);
+  width: 1440px;
+  height: 600px;
 }
 .hero-title {
   font-size: 56px;
@@ -76,16 +81,21 @@ body {
   text-align: center;
 }
 .order-btn {
-  background-color: var(--order-btn-color);
+  background-color: var(--btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  gap: 10px;
+  border: 0;
 }
 .order-btn:hover {
-  background-color: var(--order-btn-hover-color);
+  background-color: var(--hover-color);
 }
+/* Our advantages */
 .advantages-titles {
   font-size: 20px;
   font-weight: 500;
@@ -116,6 +126,8 @@ body {
 }
 .footer {
   background-color: var(--dark-bg-color);
+  width: 1440px;
+  height: 312px;
 }
 .footer > .logo {
   text-shadow: none;
@@ -126,3 +138,37 @@ body {
 }
 
 /* Portfolio */
+.filter-btn {
+  font-family: inherit;
+  background-color: var(--light-bg-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--btn-color);
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-weight: 500;
+  padding: 12px 24px;
+}
+.filter-btn:active {
+  background-color: var(--hover-color);
+  color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.project-titles {
+  font-weight: 500;
+  color: var(--title-dark-color);
+  line-height: 1.2;
+}
+.project-category {
+  color: var(--main-text-dark-color);
+}
+.project-block {
+  border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
+}
+.card-content {
+  padding: 0px 16px;
+  gap: 8px;
+}
