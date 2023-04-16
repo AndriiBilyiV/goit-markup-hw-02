@@ -59,14 +59,17 @@ body {
 }
 .nav-item {
   color: var(--nav-item-color);
+  font-weight: 500;
+  line-height: 1.5;
 }
-.nav-item:hover {
+.nav-item:hover,
+.nav-item:focus {
   color: var(--hover-color);
 }
-.address-item {
+.address {
   font-style: normal;
-  text-decoration: none;
-  font-weight: 400;
+}
+.address-item {
   color: var(--address-color);
   line-height: 1.5;
 }
@@ -112,9 +115,11 @@ body {
   font-weight: 500;
   color: var(--title-dark-color);
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .advantsges-descr {
   color: var(--main-text-dark-color);
+  line-height: 1.5;
 }
 /* What are we doing */
 /* Our Team */
