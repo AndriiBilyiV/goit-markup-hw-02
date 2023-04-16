@@ -117,7 +117,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.aadventages-descr {
+.adventages-descr {
   font-size: 16px;
   color: var(--main-text-dark-color);
   line-height: 1.5;
@@ -139,9 +139,9 @@ body {
   color: var(--title-dark-color);
   text-align: center;
   letter-spacing: 0.02em;
-  line-height: 1.5;
 }
 .position {
+  line-height: 1.5;
   text-align: center;
 }
 .footer {
@@ -188,6 +188,7 @@ body {
   letter-spacing: 0.02em;
 }
 .project-category {
+  line-height: 1.5;
   color: var(--main-text-dark-color);
 }
 .project-block {
