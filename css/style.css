@@ -117,9 +117,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.advantsges-descr {
+.aadventages-descr {
+  font-size: 16px;
   color: var(--main-text-dark-color);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* What are we doing */
 /* Our Team */
@@ -137,6 +139,7 @@ body {
   color: var(--title-dark-color);
   text-align: center;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .position {
   text-align: center;
@@ -167,6 +170,8 @@ body {
   text-align: center;
   font-weight: 500;
   padding: 12px 24px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -177,8 +182,10 @@ body {
 }
 .project-titles {
   font-weight: 500;
+  font-size: 20px;
   color: var(--title-dark-color);
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .project-category {
   color: var(--main-text-dark-color);
